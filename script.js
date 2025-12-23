@@ -109,6 +109,7 @@ function importTourState(state)
 
 function onVirtualTourInit()
 {
+	 tour.name = "NTCU_LIBRARY";
 	var updateTexts = function() { document.title = this.trans("tour.name") };
     
 };
@@ -361,6 +362,7 @@ window.addEventListener('message', onMessage);
 
 
 });
+
 
 
 
