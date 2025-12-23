@@ -256,4 +256,4 @@ htmlText_01015C15_175A_9093_41AC_06EF5A706CE2.html = <div style="text-align:left
 ### Description
 
 ### Title
-tour.name = Untitled 1
+tour.name = NTCU_LIBRARY_GO
