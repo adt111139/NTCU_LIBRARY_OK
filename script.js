@@ -110,9 +110,10 @@ function importTourState(state)
 function onVirtualTourInit()
 {
     var updateTexts = function() {
-    document.title = "NTCU_LIBRARY_TEAM4";
-};
-
+        document.title = this.trans("tour.name")
+         document.title = title && title !== "Untitled"
+        ? title
+        : "NTCU_LIBRARY_TEAM4";
     };
 
     tour.locManager.bind(TDV.Tour.LocaleManager.EVENT_LOCALE_CHANGED, updateTexts.bind(tour.locManager));
@@ -357,11 +358,10 @@ function getParams(params) {
 }
 
 document.addEventListener('DOMContentLoaded', onLoad);
-
 window.addEventListener('message', onMessage);
 
 window.addEventListener("load", function () {
     setTimeout(function () {
         document.title = "NTCU_LIBRARY_TEAM4";
-    }, 500);
+    }, 1000);
 });
