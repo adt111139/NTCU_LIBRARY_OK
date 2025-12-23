@@ -110,7 +110,7 @@ function importTourState(state)
 function onVirtualTourInit()
 {
     var updateTexts = function() {
-    document.title = "NTCU_LIBRARY_TEAM400";
+    document.title = "NTCU_LIBRARY_TEAM4";
 };
 
 
@@ -361,6 +361,7 @@ window.addEventListener('message', onMessage);
 
 
 });
+
 
 
 
