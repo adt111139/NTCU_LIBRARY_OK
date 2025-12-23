@@ -110,7 +110,9 @@ function importTourState(state)
 function onVirtualTourInit()
 {
     var updateTexts = function() {
-        document.title = this.trans("tour.name")
+    document.title = "NTCU_LIBRARY_TEAM4";
+};
+
     };
 
     tour.locManager.bind(TDV.Tour.LocaleManager.EVENT_LOCALE_CHANGED, updateTexts.bind(tour.locManager));
