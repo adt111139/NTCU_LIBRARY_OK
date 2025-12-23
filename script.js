@@ -359,10 +359,8 @@ function getParams(params) {
 document.addEventListener('DOMContentLoaded', onLoad);
 window.addEventListener('message', onMessage);
 
-window.addEventListener("load", function () {
-    setTimeout(function () {
-        document.title = "NTCU_LIBRARY_TEAM4";
-    }, 1000);
+
 });
+
 
 
